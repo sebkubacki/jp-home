@@ -88,14 +88,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('./img/hero-bg.jpg') center center/cover no-repeat;
-    /* Placeholder for video */
+    background: #333; /* Fallback color if video doesn't load */
 }
 
 .hero-background video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .hero-overlay {
