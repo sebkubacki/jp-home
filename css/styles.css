@@ -159,8 +159,20 @@ body {
     }
     
     .logo {
-        max-width: 80%;
-        max-height: 30vh;
+        max-width: 85%;
+        max-height: 45vh;
+    }
+    
+    .logo-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .text-container {
+        margin-bottom: 40px;
     }
     
     .coming-soon {
