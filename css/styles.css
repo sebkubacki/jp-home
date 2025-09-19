@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@100..900&family=Titillium+Web:wght@200;300;400;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -58,6 +60,10 @@ body {
     text-transform: uppercase;
     margin: 0 0 20px 0;
     animation: fadeInUp 1.5s ease-out;
+}
+
+.red-dot-text {
+    color: #ff0000;
 }
 
 @keyframes fadeInUp {
@@ -139,11 +145,13 @@ body {
     }
     
     .coming-soon {
+        font-family: 'Ruda', sans-serif;
         font-size: 32px;
         letter-spacing: 2px;
     }
     
     .subtitle {
+        font-family: 'Titillium Web', sans-serif;
         font-size: 16px;
     }
     
