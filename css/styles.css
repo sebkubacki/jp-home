@@ -35,7 +35,7 @@ body {
 
 .logo {
     max-width: 60%;
-    max-height: 50vh;
+    max-height: 40vh;
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -53,6 +53,7 @@ body {
 }
 
 .coming-soon {
+    font-family: 'Ruda', sans-serif;
     font-size: 48px;
     font-weight: 300;
     color: #1a1a1a;
@@ -78,6 +79,7 @@ body {
 }
 
 .subtitle {
+    font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     color: #666;
     font-weight: 300;
@@ -132,6 +134,22 @@ body {
     transform: scale(1.05);
 }
 
+/* Large desktops and 4K displays */
+@media (min-width: 1800px) {
+    .logo {
+        max-width: 70%;
+        max-height: 55vh;
+    }
+    
+    .coming-soon {
+        font-size: 56px;
+    }
+    
+    .subtitle {
+        font-size: 22px;
+    }
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .container {
@@ -145,13 +163,11 @@ body {
     }
     
     .coming-soon {
-        font-family: 'Ruda', sans-serif;
         font-size: 32px;
         letter-spacing: 2px;
     }
     
     .subtitle {
-        font-family: 'Titillium Web', sans-serif;
         font-size: 16px;
     }
     
