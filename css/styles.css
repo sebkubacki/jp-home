@@ -81,6 +81,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     overflow: hidden;
+    padding-top: 70px; /* Height of navbar */
 }
 
 .hero-background {
@@ -203,6 +204,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #ffffff;
+    padding-top: 70px; /* Height of navbar */
 }
 
 .about-top {
